@@ -1,3 +1,9 @@
+/*
+Robert Colburn
+7/31/2023
+Prompt: Given two integers num1 and num2, return the sum of the two integers.
+*/
+
 class Solution {
 public:
     int sum(int num1, int num2) {
