@@ -18,12 +18,12 @@ public:
     int maximumWealth(vector<vector<int>>& accounts) {
         int maxWealth = accounts[0][0];
         int wealth;
-        for(int counter = 0; counter < accounts.size(); counter++)
+        for(int customer = 0; customer < accounts.size(); customer++)
         {
             wealth = 0;
-            for(int counter2 = 0; counter2 < accounts[counter].size(); counter2++)
+            for(int bank = 0; bank < accounts[customer].size(); bank++)
             {
-                wealth += accounts[counter][counter2];
+                wealth += accounts[customer][bank];
             }
             if(wealth > maxWealth)
             maxWealth = wealth;
